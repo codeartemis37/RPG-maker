@@ -1,30 +1,21 @@
-[
-  {
-    "id": 1,
-    "texte": "Tu es dans une forêt sombre.",
-    "sorties": [
-      {"texte": "Aller à gauche", "id_sortie": 2},
-      {"texte": "Aller à droite", "id_sortie": 3}
+{
+  "village": {
+    "titre": "Village",
+    "description": "Un petit village paisible avec quelques maisons.",
+    "objet": "potion",
+    "options": [
+      {"texte": "Aller à la forêt", "action": "aller_foret"},
+      {"texte": "Prendre la potion", "action": "prendre_potion"},
+      {"texte": "Parler à l'ancien", "action": "parler_ancien"}
     ]
   },
-  {
-    "id": 2,
-    "texte": "Tu rencontres un loup.",
-    "sorties": [
-      {"texte": "Fuir", "id_sortie": 1},
-      {"texte": "Combattre", "id_sortie": 4}
+  "foret": {
+    "titre": "Forêt",
+    "description": "Une forêt sombre et profonde. On entend des bruits inquiétants.",
+    "objet": "épée",
+    "options": [
+      {"texte": "Retourner au village", "action": "aller_village"},
+      {"texte": "Prendre l'épée", "action": "prendre_épée"}
     ]
-  },
-  {
-    "id": 3,
-    "texte": "Tu découvres un trésor.",
-    "sorties": [
-      {"texte": "Prendre le trésor", "id_sortie": 4}
-    ]
-  },
-  {
-    "id": 4,
-    "texte": "Fin du jeu.",
-    "sorties": []
   }
-]
+}
