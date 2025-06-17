@@ -1,1 +1,30 @@
-
+[
+  {
+    "id": 1,
+    "texte": "Tu es dans une forêt sombre.",
+    "sorties": [
+      {"texte": "Aller à gauche", "id_sortie": 2},
+      {"texte": "Aller à droite", "id_sortie": 3}
+    ]
+  },
+  {
+    "id": 2,
+    "texte": "Tu rencontres un loup.",
+    "sorties": [
+      {"texte": "Fuir", "id_sortie": 1},
+      {"texte": "Combattre", "id_sortie": 4}
+    ]
+  },
+  {
+    "id": 3,
+    "texte": "Tu découvres un trésor.",
+    "sorties": [
+      {"texte": "Prendre le trésor", "id_sortie": 4}
+    ]
+  },
+  {
+    "id": 4,
+    "texte": "Fin du jeu.",
+    "sorties": []
+  }
+]
